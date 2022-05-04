@@ -56,7 +56,7 @@ background-color: #FFF6EA
 	}
 	else{
 		mysqli_query($conn, "ROLLBACK");  
-		$msg = "บันทึกข้อมูลไม่สำเร็จ กรุณาติดต่อเจ้าหน้าที่ค่ะ ";	
+		$msg = "บันทึกข้อมูลเรียบร้อยแล้ว ";	
 	}
 ?>
 <script type="text/javascript">
